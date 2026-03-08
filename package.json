@@ -1,0 +1,44 @@
+{
+  "name": "node-stream-wrapper",
+  "version": "1.0.0",
+  "description": "A modern, async, PHP-style filesystem and stream utility library for Node.js.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerry-wolf/node-stream-wrapper.git"
+  },
+  "keywords": [
+    "fs",
+    "stream",
+    "php",
+    "file-system",
+    "async",
+    "wrapper"
+  ],
+  "author": "jerry-wolf",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jerry-wolf/node-stream-wrapper/issues"
+  },
+  "homepage": "https://github.com/jerry-wolf/node-stream-wrapper#readme",
+  "devDependencies": {
+    "@types/node": "^25.3.5",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
